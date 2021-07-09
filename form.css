@@ -1,0 +1,57 @@
+
+/*Body özellikleri*/
+
+body{
+background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(b2.jpg);/* Resmin rengini koyulaştırmak için rgba(red green blue alpha alpha ıs transparency 0 full transparent 1 full opaq)*/
+height: 100vh;
+background-size: cover; /* Tüm kabı kaplayacak şekilde arka plan resmini yeniden boyutlandırın*/
+background-position: center;/* resim ortada olacak*/
+}
+
+/*Form özellikleri*/
+
+form{
+width: 320px;
+position: absolute;/*dynamic position, sadece eleman pozisyonunu hareket ettirir*/
+bottom: 20%;
+right: 40%;
+background:#566573;
+margin: 0 auto 100px;/*marjı kullanırken,elemanın etrafını etkileyen unsurları hareket ettirir, top, leftand right, bottom  (top right bottom left, but if we have 3 elemebt so its top margin right and left, bottom, auto thats mean left and right will be in center according to the browser)*/
+padding: 45px;
+text-align: center;}
+
+/*input özellikleri*/
+
+form input{
+font-family: "Roboto", sans-serif;
+background:#f2f2f2;
+width: 90%;
+border: 0;
+margin: 0 0 15px;
+padding: 15px;
+font-size: 14px;
+}
+
+/*button özellikleri*/
+form button{
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;/* Tüm karakterleri büyük harfe dönüştürür*/
+background:#4CAF50;
+width: 100%;
+border: 0;
+margin: 0 0 15px;
+padding: 15px;
+color: #ffffff;
+font-size: 14px;
+cursor: pointer;
+}
+
+form button:hover,.form button:active{ background: #43A047; }/*iki kez değişir yaklaşırsak+tıklarsak*/
+
+/*message özellikleri*/
+form .message{
+margin: 15px 0 0;
+color: aliceblue;
+font-size: 12px;
+
+}
